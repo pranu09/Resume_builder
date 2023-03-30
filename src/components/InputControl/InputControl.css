@@ -1,0 +1,27 @@
+.InputControl{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+.InputControl label{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.InputControl input{
+    border: 1px solid #cccccc;
+    outline: none;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.InputControl input:hover{
+    border: 1px solid #ededed;
+}
+.InputControl input:focus{
+    border: 1px solid #239ce2;
+}
